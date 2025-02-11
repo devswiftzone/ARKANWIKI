@@ -16,9 +16,11 @@ struct IgniteWebsite {
 
 struct ArkanWiki: Site {
     
+    
+    
     var name = "Wiki Arkanica"
     var titleSuffix = " – My Awesome Site"
-    var url = URL(static: "https://www.tuwiki.com")
+    var url = URL(static: "https://devswiftzone.github.io/ARKANWIKI/")
     var builtInIconsEnabled = true
     
     var robotsConfiguration = Robots()
@@ -63,6 +65,14 @@ struct ArkanWiki: Site {
             Historic()
 //           CustomStory()
        }
+    
+    func getURL() -> String {
+        guard let pagesURL = ProcessInfo.processInfo.environment["PAGES_URL"] else {
+            fatalError("NO PAGES URL CONFIGURED")
+        }
+        
+        return pagesURL
+    }
 }
 
 
