@@ -31,6 +31,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Install Swift
+        uses: swift-actions/setup-swift@v2
+        with:
+          swift-version: "6.0" # Ajusta la versión de Swift según lo que necesites
+      - name: Build site with Ignite
+        run: |
+          swift run -c release
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
