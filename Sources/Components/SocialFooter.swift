@@ -25,36 +25,19 @@ struct SocialFooter: HTML {
     ]
 
     var body: some HTML {
-        
-        // Footer
-        //        Footer {
-        //            Group {
-        //                Text("Síguenos en:")
-        //                    .font(.body)
-        //
-        //                Link("Twitter", target: "https://twitter.com/arkaniamagia")
-        //                    .linkStyle(.button)
-        //                    .margin(.trailing, .small)
-        //
-        //                Link("Discord", target: "https://discord.gg/arkaniamagia")
-        //                    .linkStyle(.button)
-        //            }
-        //            .margin(.bottom, .medium)
-        //
-        //            Text("© 2025 Archivos de Arkania. Todos los derechos reservados.")
-        //                .font(.small)
-        //        }
-        //        .backgroundColor(.indigo)
-        //        .padding(.vertical, .large)
-        
-        Text {
-            ForEach(zip(icons, urlStrings)) { (icon, urlString) in
-                Link(icon, target: urlString)
-                    .role(.secondary)
-                    .target(.blank)
-                    .relationship(.noOpener, .noReferrer)
-                    .margin(.trailing, 20)
+        Group {
+            Text {
+                ForEach(zip(icons, urlStrings)) { (icon, urlString) in
+                    Link(icon, target: urlString)
+                        .role(.secondary)
+                        .target(.blank)
+                        .relationship(.noOpener, .noReferrer)
+                        .margin(.trailing, 20)
+                }
             }
+            
+            Text("© 2025 Archivos de Arkania. Todos los derechos reservados.")
+
         }
         .horizontalAlignment(.center)
         .margin(.top, .xLarge)

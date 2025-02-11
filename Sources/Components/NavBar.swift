@@ -10,23 +10,12 @@ import Ignite
 
 struct NavBar: HTML {
     var body: some HTML {
-//        NavigationBar(logo: "My Awesome Site") {
-//            Link("History", target: HisctoricPage())
-//                .linkStyle(.button)
-//            
-//            Link("Race", target: RacePage())
-//            Link("Person", target: PersonPage())
-//        }
-//        .navigationItemAlignment(.trailing)
-//        .navigationBarStyle(.light)
-//        .background(.antiqueWhite)
-        
         NavigationBar(logo: "Archivos de Arkania") {
-            Link("Magia", target: "/magia")
-            Link("Razas", target: "/razas")
-            Link("Lugares", target: "/lugares")
-            Link("Historia", target: "/historia")
-            Link("Personajes", target: "/personajes")
+            Link("Magia", target: MagicPage())
+            Link("Razas", target: RacePage())
+            Link("Lugares", target: PlacesPage())
+            Link("Historia", target: HisctoricPage())
+            Link("Personajes", target: PersonPage())
         }
         .navigationItemAlignment(.trailing)
         .navigationBarStyle(.dark)

@@ -11,7 +11,7 @@ related: [Luminara Prime, Geometría Sagrada]
 race: Ælvaris
 status: Activa
 alignment: Neutral-Bueno
-published: false
+published: true
 ---
 # Arquitecta Vaelis
 ## **Historia**
@@ -24,3 +24,4 @@ Vaelis nació en el Nexo Ley **Yggthor**...
 ## **Debilidades**
 - **Amnesia**: Olvidó su nombre tras 1,000 teletransportes.
 - **Obsesión**: Busca un sucesor antes de perder toda memoria.  
+

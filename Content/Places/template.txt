@@ -4,7 +4,7 @@ author: Asiel Cabrera
 description: Intersección de 7 Corrientes Ley, hogar de los Ælvaris.
 layout: Historic
 date: 2025-02-12
-tags: [lugares, energía, magia]
+tags: lugares, energía, magia
 category: lugares
 image: /images/lugares/nexo-luminara.jpg
 related: [Ælvaris, Corrientes Ley, Geometría Sagrada]

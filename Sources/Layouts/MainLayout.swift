@@ -45,7 +45,6 @@ struct MainLayout: Layout {
                     
                     Section {
                         SocialFooter()
-                        IgniteFooter()
                     }
                     
                 }

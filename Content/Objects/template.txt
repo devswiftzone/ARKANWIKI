@@ -4,7 +4,7 @@ author: Asiel Cabrera
 description: Vara Ælvaris que proyecta hologramas de memorias colectivas.
 layout: Objects
 date: 2025-02-15
-tags: [objetos, tecnología, magia]
+tags: objetos, tecnología, magia
 category: objetos
 image: /images/objetos/baston.jpg
 related: [Ælvaris, Hologramas Estelares]

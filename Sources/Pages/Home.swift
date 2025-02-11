@@ -29,43 +29,42 @@ struct Home: StaticLayout {
         .background(image: "/images/hero-bg.jpg", contentMode: .fill, position: .center)
         
         
-        Group {
-            Text("Histories")
-                .font(.title1)
-            List {
-                ForEach(content.typed("Historic")) { content in
-                    Link(content)
-                }
-            }
-        }
+//        Group {
+//            Text("Histories")
+//                .font(.title1)
+//            List {
+//                ForEach(content.typed("Historic")) { content in
+//                    Link(content)
+//                }
+//            }
+//        }
         
         
         // Top Stories Carousel
-        //            Section {
-        //                Text("Historias Destacadas")
-        //                    .font(.title2)
-        //                    .margin(.top, .large)
-        //
-        ////                ScrollView {
-        //                    Group {
-        //                        for article in getRandomArticles(from: "historia", count: 5) {
-        //                            Card {
-        //                                Image(article.image)
-        //                                    .resizable()
-        //                                    .frame(height: 200)
-        //                                Text(article.title)
-        //                                    .font(.body)
-        //                                    .margin(.top, .small)
-        //                                Link("Leer más", target: article.url)
-        //                                    .linkStyle(.button)
-        //                                    .buttonStyle(.primary)
-        //                            }
-        //                            .frame(width: 300)
-        //                        }
-        //                    }
-        //                }
-        ////                .scrollStyle(.horizontal)
-        //            }
+                    Section {
+                        Text("Historias Destacadas")
+                            .font(.title2)
+                            .margin(.top, .large)
+        
+   
+                            Group {
+                                ForEach(content.typed("Historic")) { article in
+                                    Card {
+                                        Image(article.image!, description: article.imageDescription)
+                                            .resizable()
+                                            .frame(height: 200)
+                                        Text(article.title)
+                                            .font(.body)
+                                            .margin(.top, .small)
+                                        Link("Leer más", target: article.path)
+                                            .linkStyle(.button)
+                                    }
+                                    .frame(width: 300)
+                                }
+                            }
+                            .horizontalAlignment(.center)
+                        }
+
         
         // Category Sections
         //            for category in ["Magia", "Razas", "Lugares", "Personajes"] {

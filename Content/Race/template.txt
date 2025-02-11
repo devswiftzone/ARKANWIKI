@@ -4,7 +4,7 @@ author: Asiel Cabrera
 description: Elfos estelares que habitan en Nexos Ley, con nervios superconductores de Arkanium.
 layout: Race
 date: 2025-02-10
-tags: [elfos, magia, nexos ley]
+tags: elfos, magia, nexos ley
 category: razas
 image: /images/razas/aelvaris.jpg
 related: [Geometría Sagrada, Nexos Ley, Silenciadores]
