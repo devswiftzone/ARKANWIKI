@@ -1,0 +1,28 @@
+---
+title: Bastón de Resonancia
+author: Asiel Cabrera
+description: Vara Ælvaris que proyecta hologramas de memorias colectivas.
+layout: Objects
+date: 2025-02-15
+tags: [objetos, tecnología, magia]
+category: objetos
+image: /images/objetos/baston.jpg
+related: [Ælvaris, Hologramas Estelares]
+creator: Arquitecta Vaelis
+power: 300 tera-arkanes
+rarity: Épico
+published: false
+---
+
+# Bastón de Resonancia
+## **Funcionalidad**
+- **Hologramas Táctiles**: Proyecta escenas históricas en 4D.
+- **Almacenamiento**: Hasta 1,000 memorias en cristales de Arkanita.
+
+## **Limitaciones**
+- **Duración**: 10 minutos por carga.
+- **Vulnerabilidad**: Sonidos agudos (>15 kHz) lo apagan.
+
+## **Usuarios Famosos**
+- [Silenciadores](/grupos/silenciadores)
+- [Kyrion el Roto](/personajes/kyrion)

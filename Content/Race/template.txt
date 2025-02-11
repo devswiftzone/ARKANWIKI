@@ -1,0 +1,35 @@
+---
+title: Ælvaris
+author: Asiel Cabrera
+description: Elfos estelares que habitan en Nexos Ley, con nervios superconductores de Arkanium.
+layout: Race
+date: 2025-02-10
+tags: [elfos, magia, nexos ley]
+category: razas
+image: /images/razas/aelvaris.jpg
+related: [Geometría Sagrada, Nexos Ley, Silenciadores]
+planet: Luminara
+alignment: Neutral
+status: Activo
+published: false
+---
+
+# Ælvaris
+## **Origen**
+Los Ælvaris surgieron en los **Nexos Ley** bajo la luz de tres soles...
+
+## **Biología**
+- **Nervios Arkanicos**: Conducen energía mágica como superconductores.
+- **Debilidad**: Exposición al hierro bloquea su flujo mágico.
+
+## **Sociedad**
+- **Gobierno**: Meritocracia basada en maestría mágica.
+- **Ciudades**: [Luminara Prime](/lugares/luminara-prime), [Torre del Vacío](/lugares/torre-vacio).
+
+## **Magia Innata**
+- **Teletransporte Ley**: Viajan por Corrientes Ley, pero pierden recuerdos.
+- **Hologramas Estelares**: Proyectan memorias colectivas almacenadas en cristales.
+
+## **Citas**
+> *"El silencio es la verdad sin máscaras."*
+> — Kyrion el Roto, líder de los Devoradores del Vacío.

@@ -1,0 +1,26 @@
+---
+title: Nexo Ley Luminara
+author: Asiel Cabrera
+description: Intersección de 7 Corrientes Ley, hogar de los Ælvaris.
+layout: Historic
+date: 2025-02-12
+tags: [lugares, energía, magia]
+category: lugares
+image: /images/lugares/nexo-luminara.jpg
+related: [Ælvaris, Corrientes Ley, Geometría Sagrada]
+planet: Luminara
+danger: Bajo (controlado)
+population: 1,000,000 Ælvaris
+published: false
+---
+# Nexo Ley Luminara
+## **Geografía**
+Ubicado en el corazón de **Luminara Prime**, este Nexo Ley...
+
+## **Características**
+- **Energía**: 5× más densa que en otros Nexos.
+- **Estructuras**: Torres de Vacío, Jardines de Éter Solar.
+
+## **Eventos Históricos**
+- **El Gran Sello (Eón 5)**: Estabilización mediante Geometría Sagrada.
+- **Invasión Umbrathi (2025)**: Intentaron drenar su energía, repelidos por los Silenciadores.  
